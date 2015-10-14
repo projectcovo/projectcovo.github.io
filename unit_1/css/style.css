@@ -1,6 +1,6 @@
 body{
-	background-color: red
-}
-h1, p{
-	color: blue
+	background-color: red;
+	color: blue;
+	font-family:helvetica, arial, sans-serif;
+	font-size:16px;
 }
