@@ -1,18 +1,23 @@
-title{
-	font-family: Georgia; 
-	text-align: center;
-	font-style: italic;
-}
+* { margin:0; padding:0; box-sizing:border-box; }
 body{
-	font-family: Georgia;
+	font-family: Georgia, times, serif;
 	color: yellow;
 	text-align: center;
 	font-size: 24px; 
 }  
+section {
+	border:1px solid red;
+	padding:4em 0;
+}
 h1{
 	color: white;
 }	
-p{
-font-style: italic;
+.slogan {
+	font-style: italic;
 }
-
+#splash {
+	background-image:url(../images/food-pic.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:90vh;
+}
